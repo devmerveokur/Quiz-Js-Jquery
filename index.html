@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>29 Ekim Cmhuriyet Bayramı Bilgi Yarışması</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 style="color: rgb(168, 9, 9);">29 Ekim Cumhuriyet Bayramı Bilgi Yarışması</h1>
+        <div class="question">
+            <p>Soru 1: Cumhuriyet Hangi Yılda İlan Edildi?</p>
+            <input type="text" id="answer1" placeholder="Yıl Girin. (Örn:1920)">
+            <button class="check-answer" data-question="1" data-answer="1923">Kontrol Et</button>
+            <p class="result" id="result1"></p>
+        </div>
+        <div class="question">
+            <p>Soru 2: Cumhuriyet Türkiye'nin Hangi Şehrinde İlan Edildi?</p>
+            <input type="text" id="answer2" placeholder="Şehir Girin. (Örn:İstanbul)">
+            <button class="check-answer" data-question="2" data-answer="Ankara">Kontrol Et</button>
+            <p class="result" id="result2"></p>
+        </div>
+        <div class="question">
+            <p>Soru 3: Bu yıl Cumhuriyet'in kaçıncı yılını kutluyoruz?</p>
+            <input type="text" id="answer3" placeholder="Yıl Girin. (Örn:105)">
+            <button class="check-answer" data-question="3" data-answer="101">Kontrol Et</button>
+            <p class="result" id="result3"></p>
+        </div>
+        <button id="check-all">Sonucu Kontrol Et</button>
+    </div>
+    <div id="flag" class="hidden"></div>
+    <script src="script.js"></script>
+</body>
+</html>
